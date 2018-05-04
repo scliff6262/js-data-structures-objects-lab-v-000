@@ -16,3 +16,7 @@ function deleteFromDriverByKey(driver, key){
   delete driverClone[key]
   return driverClone
 }
+
+function destructivelyDeleteFromDriverByKey(driver, key){
+  
+}
